@@ -1,0 +1,41 @@
+---- Notas ----
+
+---- Cursos ----
+
+- FastAPI: Crea APIs eficientes con Python
+
+---- Clases mas importantes ----
+
+- 7. Instalaciones recomendadas
+- 40. Documentación y enlaces importantes
+- 41. Instalar FastAPI
+- 47. Métodos HTTP y códigos de estatus
+- 52. Documentación automática
+
+---- Virtualizacion e instalacion de paquetes ----
+
+Instalar python-3.13.11
+    python --version
+
+Activar virtualizacion
+    python -m venv <venv>
+    <venv>\Scripts\activate.bat
+    python -m venv venv
+    venv\Scripts\activate
+
+Instalar paquetes de Python
+    pip install "fastapi[standard]"
+
+---- Ejecutar proyecto usando FastAPI ----
+
+fastapi dev main.py                   (Desarrollo) (Se refresca automaticamente)
+fastapi run main.py                   (Produccion) (No se refresca automaticamente)
+uvicorn main:app --reload --port 8000 (Desarrollo) (--reload, refrescar automaticamente / --port, especificar puerto)
+
+Server started at http://127.0.0.1:8000
+Documentation at http://127.0.0.1:8000/docs
+
+---- Notas buscar ----
+
+Palabras claves a buscar:
+    -
