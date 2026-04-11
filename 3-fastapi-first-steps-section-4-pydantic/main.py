@@ -11,11 +11,14 @@ sys.path.insert(0, "..")
 # FastAPI
 from fastapi import FastAPI, Query, Body, HTTPException
 
-# Helpers
-from helpers import utils
-
 # Pydantic
 from pydantic import BaseModel, Field, field_validator, EmailStr
+
+# Typing
+# from typing import Optional, List, Union  # Se reemplazo con Python nativo
+
+# Helpers
+from helpers import utils
 
 ############################################################
 #                    DECLARAR VARIABLES                   #

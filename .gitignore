@@ -9,3 +9,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Otros
+# Excluir todo dentro de 0 RECURSOS excepto archivos zip
+0 RECURSOS/**
+!0 RECURSOS/**/*.zip
